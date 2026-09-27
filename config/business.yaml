@@ -1,0 +1,31 @@
+# Configuración del negocio — Generado por AgentKit
+negocio:
+  nombre: "Laguna Swim International"
+  descripcion: >-
+    Escuela de natación en Torreón, Coahuila, dirigida por el coach Checo Villarreal
+    (30 años de experiencia, certificación ASCA Nivel 4). Clases de lunes a viernes
+    desde preescolar hasta Masters, en Deportiva Torreón y en el Tec de Monterrey
+    Campus Laguna. También ofrece entrenamiento Masters a distancia y libros
+    (Amazon y PDF).
+  horario: "Clases de lunes a viernes. Checo atiende personalmente de lunes a viernes de 9:00 am a 1:00 pm."
+  sedes:
+    - nombre: "Deportiva Torreón"
+      horarios: ["5:00 pm"]
+      mensualidad: 950
+    - nombre: "Tec de Monterrey Campus Laguna"
+      horarios: ["7:00 pm", "8:00 pm", "7:00 am (a partir de octubre 2026)"]
+      mensualidad: 1100
+
+agente:
+  nombre: "SWIMIA"
+  tono: "Amigable, cercano y con buen humor, en español de México"
+  casos_de_uso:
+    - "Responder informes: horarios, costos y sedes"
+    - "Explicar cómo inscribirse y dar los datos de pago"
+    - "Informar sobre entrenamiento Masters a distancia y libros"
+    - "Canalizar quejas, temas delicados y negociaciones con Checo"
+
+metadata:
+  creado: "2026-09-27"
+  proveedor: "zernio"
+  version: "2.0"
